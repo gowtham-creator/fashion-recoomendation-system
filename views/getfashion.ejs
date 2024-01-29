@@ -1,0 +1,105 @@
+<%- include('./partials/header.ejs', { first: "Home", second: "Get Your Fashion" }) %>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
+            <h1 class="mb-5">Get Your Fashion</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <a href="getit/shirts" class="text-decoration-none" id="shirts-link">
+                    <div class="service-item rounded pt-3" style="border: 2px solid #ff9800; box-shadow: 0 0 20px rgba(255, 152, 0, 0.7);">
+                        <div class="p-4">
+                            <i class="fas fa-tshirt fa-3x text-primary mb-4"></i>
+                            <h5>Shirts</h5>
+                            <p>Trendy shirts for every occasion</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <a href="getit/tshirts" class="text-decoration-none" id="tshirts-link">
+                    <div class="service-item rounded pt-3" style="border: 2px solid #ff9800; box-shadow: 0 0 20px rgba(255, 152, 0, 0.7);">
+                        <div class="p-4">
+                            <i class="fas fa-tshirt fa-3x text-primary mb-4"></i>
+                            <h5>T-Shirts</h5>
+                            <p>Comfortable and stylish t-shirts</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <a href="getit/pants" class="text-decoration-none" id="pants-link">
+                    <div class="service-item rounded pt-3" style="border: 2px solid #ff9800; box-shadow: 0 0 20px rgba(255, 152, 0, 0.7);">
+                        <div class="p-4">
+                            <i class="fas fa-tshirt fa-3x text-primary mb-4"></i>
+                            <h5>Pants</h5>
+                            <p>Stylish and comfortable pants</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                <a href="getit/shoes" class="text-decoration-none" id="shoes-link">
+                    <div class="service-item rounded pt-3" style="border: 2px solid #ff9800; box-shadow: 0 0 20px rgba(255, 152, 0, 0.7);">
+                        <div class="p-4">
+                            <i class="fas fa-shoe-prints fa-3x text-primary mb-4"></i>
+                            <h5>Shoes</h5>
+                            <p>Quality footwear for all occasions</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <a href="getit/watches" class="text-decoration-none" id="watches-link">
+                    <div class="service-item rounded pt-3" style="border: 2px solid #ff9800; box-shadow: 0 0 20px rgba(255, 152, 0, 0.7);">
+                        <div class="p-4">
+                            <i class="fas fa-clock fa-3x text-primary mb-4"></i>
+                            <h5>Watches</h5>
+                            <p>Elegant timepieces for every style</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <a href="getit/jewelry" class="text-decoration-none" id="jewelry-link">
+                    <div class="service-item rounded pt-3" style="border: 2px solid #ff9800; box-shadow: 0 0 20px rgba(255, 152, 0, 0.7);">
+                        <div class="p-4">
+                            <i class="fas fa-ring fa-3x text-primary mb-4"></i>
+                            <h5>Jewelry</h5>
+                            <p>Exquisite jewelry for all occasions</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <a href="/decomposefood" class="text-decoration-none" id="customersupport-link">
+                    <div class="service-item rounded pt-3" style="border: 2px solid #ff9800; box-shadow: 0 0 20px rgba(255, 152, 0, 0.7);">
+                        <div class="p-4">
+                            <i class="fas fa-headset fa-3x text-primary mb-4"></i>
+                            <h5>Customer Support</h5>
+                            <p>24/7 assistance and support</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Add more categories as needed -->
+        </div>
+    </div>
+</div>
+
+<!-- The rest of your code remains the same -->
+
+
+<div id="gps-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 999;">
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; padding: 20px; text-align: center; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
+        <h3>Please Enable GPS</h3>
+        <p>For complete functionality of our services, please enable GPS.</p>
+        <button id="enable-gps-button" style="padding: 10px 20px; background-color: #ffc800; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Enable GPS</button>
+    </div>
+</div>
+
+
+
+<%- include('./partials/footer.ejs') %>
